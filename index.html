@@ -17,13 +17,13 @@
             flex-direction: column;
         }
 
-        /* Conteneur du cœur avec l'image PNG */
+       
         .heart-container {
             position: relative;
             width: 400px;
             height: 400px;
-            background: url('nous.png') no-repeat center/cover; /* Ton image PNG ici */
-            margin-bottom: 1px; /* Espace entre le cœur et le bouton */
+            background: url('nous.png') no-repeat center/cover; 
+            margin-bottom: 1px; 
         }
 
         .button-container {
@@ -93,17 +93,18 @@
         function createHeart() {
             const heart = document.createElement('div');
             heart.classList.add('heart');
-            heart.style.left = Math.random() * 100 + 'vw'; // Position aléatoire
-            heart.style.animationDuration = Math.random() * 2 + 3 + 's'; // Durée de l'animation
+            heart.style.left = Math.random() * 100 + 'vw'; 
+            heart.style.animationDuration = Math.random() * 2 + 3 + 's'; 
             document.body.appendChild(heart);
-            setTimeout(() => heart.remove(), 5000); // Retirer après 5 secondes
+            setTimeout(() => heart.remove(), 5000); 
         }
         setInterval(createHeart, 300);
 
         // Action du bouton
         function downloadAPK() {
         // Lien de téléchargement direct
-        window.location.href = 'https://drive.google.com/uc?export=download&id=1ob2nuyAuLzUaQheNJzEI3EvUPzXfh7Qf';
+        window.location.href = 'https://drive.google.com/uc?export=download&id=1Oi0kuew6AqSCma4Bvo6_xG_EhwUubKlO
+';
     }
     </script>
 </body>
